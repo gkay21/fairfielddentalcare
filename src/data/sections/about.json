@@ -1,0 +1,21 @@
+{
+  "subtitle": "Our story.",
+  "title": "Meet the Team at Fairfield Dental Care",
+  "description1": "Our entire team enjoys getting to know our patients and doing a great job when looking after their smiles. When we have the opportunity to get to know you and your family, we can better help you achieve your goals for your smile and your health.",
+  "description2": "Our friendly and experienced team looks forward to making your dental visits comfortable and an experience that you actually look forward to.",
+  "description3": "You can get to know our team by reading our biographies below. We look forward to welcoming you to our Fairfield dental practice.",
+  "button1": {
+    "label": "Meet the team",
+    "link": "about-us"
+  },
+  "button2": {
+    "label": "See the technology",
+    "link": "technology"
+  },
+  "image": {
+    "front": "/img/content/2.jpg",
+    "back": "/img/content/1.jpg",
+    "alt": "image",
+    "badgeText": "about us - about us - about us - "
+  }
+}

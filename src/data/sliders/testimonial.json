@@ -1,0 +1,26 @@
+{
+  "subtitle": "Reviews",
+  "title": "What our patients say about us",
+  "items": [
+    {
+      "name": "Patient 1",
+      "image": "/img/team/1.png",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur magni, voluptas accusamus ducimus officia at ipsam veniam ratione alias vero, totam non quam nesciunt deleniti qui, sunt quaerat. Fugit, enim!"
+    },
+    {
+      "name": "Patient 2",
+      "image": "/img/team/2.png",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur magni, voluptas accusamus ducimus officia at ipsam veniam ratione alias vero, totam non quam nesciunt deleniti qui, sunt quaerat. Fugit, enim!"
+    },
+    {
+      "name": "Patient 3",
+      "image": "/img/team/3.png",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur magni, voluptas accusamus ducimus officia at ipsam veniam ratione alias vero, totam non quam nesciunt deleniti qui, sunt quaerat. Fugit, enim!"
+    },
+    {
+      "name": "Patient 4",
+      "image": "/img/team/4.png",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur magni, voluptas accusamus ducimus officia at ipsam veniam ratione alias vero, totam non quam nesciunt deleniti qui, sunt quaerat. Fugit, enim!"
+    }
+  ]
+}

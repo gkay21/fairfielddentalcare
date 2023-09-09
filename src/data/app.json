@@ -1,0 +1,192 @@
+{
+  "settings": {
+    "formspreeURL": "https://formspree.io/f/your_api_key",
+    "mailchimp": {
+      "url": "",
+      "key": ""
+    }
+  },
+  "header": {
+    "logo": {
+      "text": "fd",
+      "accent": "."
+    },
+    "menu": [
+      {
+        "label": "Home",
+        "link": "/"
+      },
+      {
+        "label": "About",
+        "link": "/about-us",
+        "children": [
+          {
+            "label": "Our Team",
+            "link": "/about-us"
+          },
+          {
+            "label": "Our Technology",
+            "link": "/technology"
+          },
+          {
+            "label": "Our Practice",
+            "link": "/office-tour"
+          }
+        ]
+      },
+      {
+        "label": "Services",
+        "link": "/services",
+        "children": [
+          {
+            "label": "General Dentistry",
+            "link": "/services/general-dentistry"
+          },
+          {
+            "label": "Cosmetic Dentistry",
+            "link": "/services/cosmetic-dentistry"
+          },
+          {
+            "label": "Dental Implants",
+            "link": "/services/dental-implants"
+          },
+          {
+            "label": "Emergencies",
+            "link": "/services/emergencies"
+          },
+          {
+            "label": "Root Canal Treatment",
+            "link": "/services/root-canal-treatment"
+          },
+          {
+            "label": "Dental Crowns and Bridges",
+            "link": "/services/dental-crowns-bridges"
+          },
+          {
+            "label": "Anti-Snoring Treatment",
+            "link": "/services/antisnoring-treatment"
+          },
+          {
+            "label": "Veneers",
+            "link": "/services/veneers"
+          },
+          {
+            "label": "Children’s Dentistry",
+            "link": "/services/children-dentistry/"
+          },
+          {
+            "label": "Anti-Wrinkle Injections",
+            "link": "/services/antiwrinkle-injections"
+          },
+          {
+            "label": "Dentures and Partial Dentures",
+            "link": "/services/dentures-partial-dentures"
+          },
+          {
+            "label": "Dental Surgery",
+            "link": "/services/dental-surgery"
+          }
+        ]
+      },
+      {
+        "label": "FAQs",
+        "link": "/faqs"
+      },
+      {
+        "label": "Blog",
+        "link": "/blog"
+      },
+      {
+        "label": "Financial",
+        "link": "/financial-info"
+      },
+      {
+        "label": "Contact",
+        "link": "/contact"
+      }
+    ]
+  },
+  "footer": {
+    "logo": {
+      "text": "It’s Time to Pull in <br />a",
+      "accent": " Professional"
+    },
+    "description": "Adipisicing elit consequuntur odit accusamus, aspern loluptates ea consequuntur aspernatur fugiat. Lorem ipsum dolor sit amet.",
+    "menu": [
+      {
+        "label": "Homepage",
+        "link": "/"
+      },
+      {
+        "label": "About",
+        "link": "about"
+      },
+      {
+        "label": "Portfolio",
+        "link": "portfolio"
+      },
+      {
+        "label": "Newsletter",
+        "link": "blog"
+      },
+      {
+        "label": "Contact",
+        "link": "contact"
+      }
+    ],
+    "links": [
+      {
+        "label": "Terms",
+        "link": "#."
+      },
+      {
+        "label": "Careers",
+        "link": "#."
+      },
+      {
+        "label": "Privacy Policy",
+        "link": "#."
+      },
+      {
+        "label": "Help Center",
+        "link": "#."
+      },
+      {
+        "label": "Sitemap",
+        "link": "#."
+      }
+    ],
+    "copy": "© 2023 Fairfield Dental Care. All Rights Reserved.",
+    "bg_image": "/img/hero/1.jpg",
+    "instagram": {
+      "images": [
+        "/img/content/instagram-2/1.jpg",
+        "/img/content/instagram-2/2.jpg",
+        "/img/content/instagram-2/3.jpg",
+        "/img/content/instagram-2/4.jpg",
+        "/img/content/instagram-2/5.jpg",
+        "/img/content/instagram-2/6.jpg"
+      ],
+      "button": {
+        "label": "Our Instagram",
+        "link": "https://instagram.com"
+      }
+    }
+  },
+  "contacts": {
+    "email": "info@fairfielddentalcare.com.au",
+    "tel": "(02) 9724 1163"
+  },
+  "social": [
+    {
+      "link": "https://facebook.com/FairfieldDentalCare",
+      "icon": "fab fa-facebook",
+      "title": "Facebook"
+    },
+    {
+      "link": "https://instagram.com/fairfielddentalcare/",
+      "icon": "fab fa-instagram",
+      "title": "Instagram"
+    }
+  ]
+}

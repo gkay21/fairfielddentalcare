@@ -1,0 +1,33 @@
+{
+  "bg_image": "/img/content/3.jpg",
+  "items": [
+    {
+      "num": "01",
+      "title": "General Dentistry",
+      "icon": "/img/icons/1.svg",
+      "text": "Deleniti ratione, delectus beatae, exercitationem debitis, dignissimos similique, atque, officiis.",
+      "link": "/services/general-dentistry"
+    },
+    {
+      "num": "02",
+      "title": "Cosmetic Dentistry",
+      "icon": "/img/icons/2.svg",
+      "text": "Deleniti ratione, delectus beatae, exercitationem debitis, dignissimos similique, atque, officiis.",
+      "link": "/services/cosmetic-dentistry"
+    },
+    {
+      "num": "03",
+      "title": "Root Canal Treatment",
+      "icon": "/img/icons/3.svg",
+      "text": "Deleniti ratione, delectus beatae, exercitationem debitis, dignissimos similique, atque, officiis.",
+      "link": "/services/root-canal-treatment"
+    },
+    {
+      "num": "04",
+      "title": "Emergencies",
+      "icon": "/img/icons/3.svg",
+      "text": "Deleniti ratione, delectus beatae, exercitationem debitis, dignissimos similique, atque, officiis.",
+      "link": "/services/emergencies"
+    }
+  ]
+}

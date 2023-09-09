@@ -1,0 +1,10 @@
+{
+  "subtitle": "Our news",
+  "title": "Dental insights for nurturing healthy smiles",
+  "description": "Explore our dental blog for expert insights, tips, and resources on oral health, dental care, and a beautiful smile. Our articles cover a wide range of topics, from preventive care and hygiene to the latest advancements in dentistry.",
+  "button": {
+    "label": "View all",
+    "link": "/blog"
+  },
+  "numOfItems": 3
+}

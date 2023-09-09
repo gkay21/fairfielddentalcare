@@ -1,0 +1,51 @@
+{
+  "bg_image": "/img/hero/1.png",
+  "title": {
+    "before": "Welcome to our",
+    "accent": "practice"
+  },
+  "description": "Welcome to Fairfield Dental Care. We are so glad you found us and are honoured that you are considering our dental practice to look after your family’s smiles.",
+  "image": "/img/hero/2.jpg",
+  "partners": [
+    {
+      "image": "/img/partners/1.svg",
+      "link": "#.",
+      "alt": "logo"
+    },
+    {
+      "image": "/img/partners/2.svg",
+      "link": "#.",
+      "alt": "logo"
+    },
+    {
+      "image": "/img/partners/3.svg",
+      "link": "#.",
+      "alt": "logo"
+    },
+    {
+      "image": "/img/partners/4.svg",
+      "link": "#.",
+      "alt": "logo"
+    },
+    {
+      "image": "/img/partners/5.svg",
+      "link": "#.",
+      "alt": "logo"
+    },
+    {
+      "image": "/img/partners/6.svg",
+      "link": "#.",
+      "alt": "logo"
+    },
+    {
+      "image": "/img/partners/7.svg",
+      "link": "#.",
+      "alt": "logo"
+    },
+    {
+      "image": "/img/partners/8.svg",
+      "link": "#.",
+      "alt": "logo"
+    }
+  ]
+}

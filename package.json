@@ -1,0 +1,32 @@
+{
+  "name": "fairfielddentalcare.com.au",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "export": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "date-fns": "^2.30.0",
+    "formik": "^2.4.2",
+    "gray-matter": "^4.0.3",
+    "gsap": "^3.11.5",
+    "imagemin-mozjpeg": "9.0.0",
+    "imagemin-optipng": "^8.0.0",
+    "imagemin-svgo": "9.0.0",
+    "next": "13.4.3",
+    "next-optimized-images": "^2.6.2",
+    "photoswipe": "^5.3.7",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-modal-video": "^2.0.0",
+    "react-photoswipe-gallery": "^2.2.7",
+    "remark": "^14.0.3",
+    "remark-html": "^15.0.2",
+    "sass": "^1.49.7",
+    "swiper": "^9.0.0"
+  }
+}
