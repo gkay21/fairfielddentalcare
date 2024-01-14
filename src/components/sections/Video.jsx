@@ -8,7 +8,7 @@ const VideoSection = () => {
 
   return (
     <>
-      <a
+      <div
         data-fancybox
         data-no-swup
         onClick={() => setOpen(true)}
@@ -51,7 +51,7 @@ const VideoSection = () => {
             </p>
           </div>
         </div>
-      </a>
+      </div>
 
       <ModalVideo
         channel="youtube"
