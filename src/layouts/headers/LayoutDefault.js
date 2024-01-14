@@ -24,10 +24,7 @@ const DefaultHeader = ({ extraClass }) => {
       <div className="container">
         <Link href="/" legacyBehavior>
           <a className="mil-logo mil-scale-down-trigger mil-accent-trigger">
-            <div className="mil-h5">
-              {appData.header.logo.text}
-              <span className="mil-accent">{appData.header.logo.accent}</span>
-            </div>
+            <img src={appData.header.logo.src} alt={appData.header.logo.alt} />
           </a>
         </Link>
         <div

@@ -8,8 +8,8 @@
   },
   "header": {
     "logo": {
-      "text": "fd",
-      "accent": "."
+      "src": "/img/logo.svg",
+      "alt": "Fairfield Dental Care logo | Dentist Fairfield NSW"
     },
     "menu": [
       {

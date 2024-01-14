@@ -36,6 +36,10 @@ function MyApp({ Component, pageProps }) {
         />
         <link rel="icon" href="/img/favicon.png" type="image/x-icon" />
         <link rel="shortcut icon" href="/img/favicon.png" type="image/x-icon" />
+        <link
+          rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        />
         <meta name="city" content="Fairfield" />
         <meta name="state" content="NSW" />
         <meta name="country" content="AU" />
