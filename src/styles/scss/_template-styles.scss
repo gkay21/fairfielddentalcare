@@ -5,8 +5,12 @@ logo
 ***************************/
 .mil-logo {
   display: flex;
-  width: 200px;
   align-items: center;
+
+  img {
+    width: 200px;
+    height: 70px;
+  }
 }
 
 /***************************
