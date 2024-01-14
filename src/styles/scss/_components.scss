@@ -80,6 +80,7 @@ cards
 
 ***************************/
 .mil-card-1 {
+  min-height: 400px;
   position: relative;
   overflow: hidden;
   width: 100%;
@@ -717,6 +718,10 @@ accordion
   position: relative;
   margin-bottom: 10px;
   transition: $t-md;
+
+  h6 {
+    margin-right: 40px;
+  }
 }
 
 .mil-accordion-content {
