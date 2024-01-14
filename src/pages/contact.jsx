@@ -38,19 +38,19 @@ const Contact = () => {
           </div>
           <div class="hours-grid">
             <h6>Wednesday*</h6>
-            <p>8:30AM - 12:30PM</p>
+            <p>9:00AM - 5:00PM</p>
           </div>
           <div class="hours-grid">
             <h6>Thursday</h6>
-            <p>9:00AM - 6:00PM</p>
+            <p>8:30AM - 6:00PM</p>
           </div>
           <div class="hours-grid">
             <h6>Friday</h6>
-            <p>8:30AM - 6:00PM</p> 
+            <p>8:30AM - 5:00PM</p> 
           </div>
           <div class="hours-grid">  
             <h6>Saturday</h6>
-            <p>9:00AM - 1:00PM</p>
+            <p>8:30AM - 12:30PM</p>
           </div>
           <div class="hours-grid">
             <h6>Sunday</h6>
@@ -58,10 +58,6 @@ const Contact = () => {
           </div>
         </div>
         `,
-      },
-      {
-        label:
-          "* On Wednesdays, we are open to take your appointment requests, but no dentist or hygienist is available.",
       },
     ],
   };
