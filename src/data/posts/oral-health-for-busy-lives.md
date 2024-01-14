@@ -28,7 +28,7 @@ When you have finished brushing, try to spit out the toothpaste and don’t rins
 
 ###### Tools of the trade
 
-If limited dexterity is an issue, you might consider using a powered toothbrush. They can be programmed to run for two minutes, making keeping to the correct length of brushing time easy. If you’re not sure which type of brush will work for you or your family, check with Dr Etcell, Alice or Belinda.
+If limited dexterity is an issue, you might consider using a powered toothbrush. They can be programmed to run for two minutes, making keeping to the correct length of brushing time easy. If you’re not sure which type of brush will work for you or your family, check with any of our friendly staff.
 
 ###### General tips
 

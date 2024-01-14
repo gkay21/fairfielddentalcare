@@ -5,13 +5,13 @@ short: "Our Tech"
 #full details
 fullImage: "/img/hero/1.png"
 description:
-  - "As with many aspects of life, if you are not advancing in dentistry, you are becoming out of date. Staying on the leading edge of the dental profession is important to Dr Etcell so that he can continually improve and perfect the dentistry he provides."
+  - "As with many aspects of life, if you are not advancing in dentistry, you are becoming out of date. Staying on the leading edge of the dental profession is important to Dr El-Khoury so that he can continually improve and perfect the dentistry he provides."
   - "Our investment in the latest technology is an investment in our patients’ smiles. Here are some of the ways that modern dentistry improves the care and the results you can count on in our Fairfield dental practice."
 ---
 
 ##### Digital Dental X-Rays
 
-Digital dental x-rays are far safer than their film counterparts, emitting up to 80 percent less radiation. Digital images are of a higher quality and subject to Dr Etcell's adjustments in exposure and contrast for the earliest diagnosis possible.
+Digital dental x-rays are far safer than their film counterparts, emitting up to 80 percent less radiation. Digital images are of a higher quality and subject to Dr El-Khoury's adjustments in exposure and contrast for the earliest diagnosis possible.
 
 ###### Why do I need a dental x-ray?
 
@@ -19,7 +19,7 @@ We take x-rays of your mouth to assist the dentist diagnosing any issues. Our sm
 
 A large full mouth x-ray (OPG) can be helpful to assess issues such as jaw problems and the need for orthodontic work and also provides an overall look at your mouth.
 
-After a comprehensive examination and necessary x-rays, we can provide you with a detailed treatment plan if any work is needed. Dr Etcell will take the time to fully explain his concerns and recommendations to you, and brochures are available to further enlighten you regarding any treatment discussed.
+After a comprehensive examination and necessary x-rays, we can provide you with a detailed treatment plan if any work is needed. Dr El-Khoury will take the time to fully explain his concerns and recommendations to you, and brochures are available to further enlighten you regarding any treatment discussed.
 
 ##### Intraoral Camera
 
