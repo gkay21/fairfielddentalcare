@@ -57,7 +57,7 @@ const DefaultHeader = ({ extraClass }) => {
             </nav>
           </div>
 
-          <ul className="mil-social mil-hidden-trigger">
+          <div className="mil-social mil-hidden-trigger">
             <div className="mil-mr-15-adapt">
               <Link
                 href="https://www.centaurportal.com/d4w/org-1171/extended_search?randomNumber=21d8305c3ab5a1908e2cf0d54ebc8e33f8259c8b7c5ba501e345e8dce3e10a10&shortVer=true&sourceID="
@@ -74,7 +74,7 @@ const DefaultHeader = ({ extraClass }) => {
                 </a>
               </li>
             ))}
-          </ul>
+          </div>
         </div>
 
         {/* mobile menu button */}
