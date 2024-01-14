@@ -4,23 +4,23 @@
   "items": [
     {
       "name": "Patient 1",
-      "image": "/img/team/1.png",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur magni, voluptas accusamus ducimus officia at ipsam veniam ratione alias vero, totam non quam nesciunt deleniti qui, sunt quaerat. Fugit, enim!"
+      "image": "/img/team/coming-soon-f.png",
+      "text": "Dr. James is an exceptional dentist! I've always dreaded dental visits, but my recent experience was surprisingly pain-free. From the initial numbing to the procedure itself, I felt minimal discomfort. Highly recommend for anyone anxious about dental work!"
     },
     {
       "name": "Patient 2",
-      "image": "/img/team/2.png",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur magni, voluptas accusamus ducimus officia at ipsam veniam ratione alias vero, totam non quam nesciunt deleniti qui, sunt quaerat. Fugit, enim!"
+      "image": "/img/team/coming-soon-m.png",
+      "text": "I cannot praise Dr. James and his team enough for their gentle approach. I had a root canal done, and I was amazed at how painless the entire process was. The care and precision they exhibited made all the difference. Thank you for making my visit stress-free!"
     },
     {
       "name": "Patient 3",
-      "image": "/img/team/3.png",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur magni, voluptas accusamus ducimus officia at ipsam veniam ratione alias vero, totam non quam nesciunt deleniti qui, sunt quaerat. Fugit, enim!"
+      "image": "/img/team/coming-soon-m.png",
+      "text": "I've never been one to enjoy dental visits, but the team at Fairfield Dental Care has changed that for me. My last filling was done with such care and attention that I hardly felt a thing. The care they showed on making sure I was happy and comfortable truly sets this practice apart. Thank you to the entire team."
     },
     {
       "name": "Patient 4",
-      "image": "/img/team/4.png",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur magni, voluptas accusamus ducimus officia at ipsam veniam ratione alias vero, totam non quam nesciunt deleniti qui, sunt quaerat. Fugit, enim!"
+      "image": "/img/team/coming-soon-f.png",
+      "text": "Dr. James is exceptional! I needed a crown, and I was anxious about the pain. However, the entire process was surprisingly easy. Dr. James' skill and precision were clear to see. I'm grateful for such a positive experience at the dentist!"
     }
   ]
 }

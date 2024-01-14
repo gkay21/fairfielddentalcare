@@ -1,42 +1,44 @@
 ---
 #preview details
-image: "/img/icons/1.svg"
+image: "/img/icons/2.svg"
 title: "Emergencies"
-short: "Deleniti ratione beatae"
+short: "Prompt care and relief for urgent dental needs."
 
 #full details
 fullImage: "/img/content/14.jpg"
-description: "At FairfieldDentalCare, we're committed to providing our clients with the highest level of service and support. Contact us today to learn more about how we can help you achieve your content and social media goals."
+description: "
+<p>
+  Sudden toothaches or an accident can cause panic. Dr El-Khoury and our entire team are here to help ease your mind when a dental emergency occurs. We welcome you to contact our Fairfield dental clinic at the first sign of a problem so we can have you feeling like yourself again quickly.
+</p>
+<p>
+  We strive to treat dental emergencies fast – usually on the same day.
+</p>  
+"
 
 list: 
-    - label: "Blog writing"
+    - label: "Is Tooth Pain an Emergency?"
       value: "
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam, at facilis totam in adipisci et perspiciatis est itaque libero velit eaque officia, aperiam ad ratione omnis eos ipsum, dolores quae! Nostrum quidem corporis esse doloribus inventore, odio magnam soluta fugit!</p>
-      "
-
-    - label: "Multimedia production"
-      value: "
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam, at facilis totam in adipisci et perspiciatis est itaque libero velit eaque officia, aperiam ad ratione omnis eos ipsum, dolores quae! Nostrum quidem corporis esse doloribus inventore, odio magnam soluta fugit!</p>
-      "
-
-    - label: "Content editing"
-      value: "
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam, at facilis totam in adipisci et perspiciatis est itaque libero velit eaque officia, aperiam ad ratione omnis eos ipsum, dolores quae! Nostrum quidem corporis esse doloribus inventore, odio magnam soluta fugit!</p>
-      "
-
-    - label: "Social media content creation"
-      value: "
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam, at facilis totam in adipisci et perspiciatis est itaque libero velit eaque officia, aperiam ad ratione omnis eos ipsum, dolores quae! Nostrum quidem corporis esse doloribus inventore, odio magnam soluta fugit!</p>
-      "
-
-    - label: "Email newsletter copywriting"
-      value: "
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam, at facilis totam in adipisci et perspiciatis est itaque libero velit eaque officia, aperiam ad ratione omnis eos ipsum, dolores quae! Nostrum quidem corporis esse doloribus inventore, odio magnam soluta fugit!</p>
-      "
-    - label: "Product descriptions"
-      value: "
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam, at facilis totam in adipisci et perspiciatis est itaque libero velit eaque officia, aperiam ad ratione omnis eos ipsum, dolores quae! Nostrum quidem corporis esse doloribus inventore, odio magnam soluta fugit!</p>
-      "
+    <p>
+      Dental conditions like decay do not usually cause pain until they are well advanced and impact the nerve protected deep inside your tooth. Anytime you experience pain in a tooth, it’s your body’s way of alerting you to a problem. Ignoring the problem will likely cause it to worsen and may even result in the need for an extraction.
+    </p>
+    <p>
+      <b>Common dental emergencies:</b>
+      <ul>
+        <li><b>Knocked out or loose tooth</b></li>
+        <li><b>Pain and inflammation</b></li>
+        <li><b>Extreme sensitivity</b></li>
+        <li><b>Broken tooth</b></li>
+        <li><b>Damaged or lost filling, crown or bridge</b></li>
+        <li><b>Sports injuries</b></li>
+      </ul>
+    </p>
+    <p>
+      If you are ever in doubt about whether you need an emergency dental visit, contact Dr James El-Khoury and Associates to speak with one of our friendly and knowledgeable staff.
+    </p>
+    <p>
+      <a class='mil-link-hover' href='/contact/'>Contact Fairfield Dental Care Today!</a>
+    </p>
+    "
 
 button:
     label: "All Services"

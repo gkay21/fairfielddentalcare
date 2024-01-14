@@ -10,13 +10,58 @@ const Contact = () => {
     info: [
       {
         icon: "/img/icons/4.svg",
-        label: "Support email",
-        value: "info@fairfielddentalcare.com.au",
+        label: "Email",
+        value: `<h6><a href="mailto:info@fairfielddentalcare.com.au">info@fairfielddentalcare.com.au</a></h6>`,
       },
       {
         icon: "/img/icons/7.svg",
-        label: "Call 24/7",
-        value: "(02) 9724 1163",
+        label: "Phone",
+        value: `<h6><a href="tel:+61297241163">(02) 9724 1163</a></h6>`,
+      },
+      {
+        icon: "/img/icons/8.svg",
+        label: "Location",
+        value: `<h6><a href="https://maps.app.goo.gl/mJcJic2byQwqfjJY7">2/6 Harris St, Fairfield NSW 2165</a></h6>`,
+      },
+      {
+        icon: "/img/icons/2.svg",
+        label: "Opening Hours",
+        value: `
+        <div>
+          <div class="hours-grid">
+            <h6>Monday</h6>
+            <p>8:30AM - 6:00PM</p>
+          </div>
+          <div class="hours-grid">
+            <h6>Tuesday</h6>
+            <p>8:30AM - 7:30PM</p>
+          </div>
+          <div class="hours-grid">
+            <h6>Wednesday*</h6>
+            <p>8:30AM - 12:30PM</p>
+          </div>
+          <div class="hours-grid">
+            <h6>Thursday</h6>
+            <p>9:00AM - 6:00PM</p>
+          </div>
+          <div class="hours-grid">
+            <h6>Friday</h6>
+            <p>8:30AM - 6:00PM</p> 
+          </div>
+          <div class="hours-grid">  
+            <h6>Saturday</h6>
+            <p>9:00AM - 1:00PM</p>
+          </div>
+          <div class="hours-grid">
+            <h6>Sunday</h6>
+            <p>Closed</p>
+          </div>
+        </div>
+        `,
+      },
+      {
+        label:
+          "* On Wednesdays, we are open to take your appointment requests, but no dentist or hygienist is available.",
       },
     ],
   };
@@ -40,11 +85,11 @@ const Contact = () => {
                 <div key={`contact-item-${key}`}>
                   <div className="mil-icon-box mil-box-hori mil-appearance mil-mb-30">
                     <div className="mil-icon mil-accent">
-                      <img src={item.icon} alt={item.label} />
+                      {item.icon && <img src={item.icon} alt={item.label} />}
                     </div>
                     <div className="mil-icon-box-text">
-                      <h6>{item.value}</h6>
                       <p>{item.label}</p>
+                      <div dangerouslySetInnerHTML={{ __html: item.value }} />
                     </div>
                   </div>
                 </div>
@@ -200,7 +245,7 @@ const Contact = () => {
       {/* map */}
       <div className="mil-map-frame">
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3312.6729287311505!2d150.9549947!3d-33.8723191!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12bd8771bba335%3A0x7b470caf5b4b36d8!2s6%20Harris%20St%2C%20Fairfield%20NSW%202165!5e0!3m2!1sen!2sau!4v1693838838032!5m2!1sen!2sau"
+          src="https://www.google.com/maps/embed/v1/place?q=Fairfield+Dental+Care;+Dr+James+El-Khoury,+Dr+Michael+Tran+and+Associates,+Harris+Street,+Fairfield+NSW,+Australia&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
           width={600}
           height={450}
           style={{ border: 0 }}

@@ -32,9 +32,10 @@ const Blog = ({ posts, currentPage, totalPosts }) => {
             </div>
             <div className="col-xl-6">
               <p className="mil-appearance mil-mt-55-adapt mil-mb-30">
-                {Content.description}
+                {Content.description1}
               </p>
-
+              <p className="mil-appearance mil-mb-30">{Content.description2}</p>
+              <p className="mil-appearance mil-mb-30">{Content.description3}</p>
               <div className="mil-deco mil-appearance"></div>
             </div>
           </div>

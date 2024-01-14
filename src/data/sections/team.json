@@ -10,22 +10,22 @@
     {
       "image": "/img/team/1.png",
       "name": "Dr James El-Khoury",
+      "role": "Principal Dentist"
+    },
+    {
+      "image": "/img/team/coming-soon-m.png",
+      "name": "Dr Michael Tran",
       "role": "Dentist"
     },
     {
       "image": "/img/team/2.png",
-      "name": "Dr James El-Khoury",
-      "role": "Dentist"
+      "name": "Kerri Anne Le",
+      "role": "Oral Health Therapist"
     },
     {
-      "image": "/img/team/3.png",
-      "name": "Dr James El-Khoury",
-      "role": "Dentist"
-    },
-    {
-      "image": "/img/team/4.png",
-      "name": "Dr James El-Khoury",
-      "role": "Dentist"
+      "image": "/img/team/coming-soon-f.png",
+      "name": "Sibel Serce",
+      "role": "Oral Health Therapist"
     }
   ]
 }

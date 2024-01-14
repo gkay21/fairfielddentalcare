@@ -763,6 +763,12 @@ services
   }
 }
 
+.service-description {
+  p {
+    margin-bottom: 30px;
+  }
+}
+
 /***************************
 
 video
@@ -826,20 +832,13 @@ map
 
 ***************************/
 .mil-map-frame {
-  position: relative;
-  overflow: hidden;
-  padding-bottom: 30%;
+  display: flex;
+  width: 100%;
+  height: 600px;
 
   & iframe {
-    width: 250%;
-    height: 250%;
-    position: absolute;
-    left: -75%;
-    top: -75%;
-  }
-
-  @media screen and (max-width: 992px) {
-    padding-bottom: 60%;
+    width: 100%;
+    height: 100%;
   }
 }
 

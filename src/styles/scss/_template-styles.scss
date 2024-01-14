@@ -226,7 +226,14 @@ reviews
 .mil-reviews-section {
   background-color: $gs-10;
 
+  & .swiper-slide {
+    height: auto;
+  }
+
   & .mil-review {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
     padding: 30px;
     background-color: $gs-5;
   }

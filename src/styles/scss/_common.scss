@@ -794,6 +794,10 @@ spaces
   margin-right: 30px;
 }
 
+.mil-mt-15 {
+  margin-top: 15px;
+}
+
 .mil-mt-30-adapt {
   margin-top: 30px;
 
@@ -808,6 +812,14 @@ spaces
 
 .mil-mt-55-adapt {
   margin-top: 55px;
+
+  @media screen and (max-width: 1200px) {
+    margin-top: 0;
+  }
+}
+
+.mil-mt-60-adapt {
+  margin-top: 60px;
 
   @media screen and (max-width: 1200px) {
     margin-top: 0;
@@ -890,6 +902,14 @@ spaces
   }
 }
 
+.mil-p-60-0 {
+  padding-top: 60px;
+
+  @media screen and (max-width: 992px) {
+    padding-top: 30px;
+  }
+}
+
 .mil-p-120-0 {
   padding-top: 120px;
 
@@ -927,14 +947,6 @@ spaces
 
   @media screen and (max-width: 992px) {
     padding-bottom: 30px;
-  }
-}
-
-.mil-p-90-0 {
-  padding-top: 90px;
-
-  @media screen and (max-width: 992px) {
-    padding-top: 30px;
   }
 }
 

@@ -9,7 +9,6 @@ import Date from "@library/date";
 
 import PageBanner from "@components/PageBanner";
 import RelatedPostsSection from "@components/sections/RelatedPosts";
-import SubscribeSection from "@components/sections/Subscribe";
 
 const PostsDetail = (props) => {
   const postData = props.data;
@@ -74,7 +73,7 @@ const PostsDetail = (props) => {
                   >
                     <img
                       src={postData.image}
-                      alt={postData.title}
+                      alt={postData.alt}
                       className="mil-scale-img"
                       data-value-1="1"
                       data-value-2="1.1"
@@ -92,7 +91,7 @@ const PostsDetail = (props) => {
             {typeof postData.gallery != "undefined" && (
               <>
                 {postData.gallery.enabled == 1 && (
-                  <div className="row justify-content-center mil-p-120-0">
+                  <div className="row justify-content-center mil-p-60-0">
                     <div className="col-lg-12 col-xl-9">
                       <div className="row">
                         {postData.gallery.items.map((item, key) => (
@@ -145,11 +144,11 @@ const PostsDetail = (props) => {
             {typeof postData.youtube != "undefined" && (
               <>
                 {postData.youtube.enabled == 1 && (
-                  <div className="row justify-content-center mil-p-120-0">
+                  <div className="row justify-content-center mil-p-60-0">
                     <div className="col-lg-12 col-xl-9">
                       <iframe
                         className="mil-youtube-video mil-appearance"
-                        src={`https://www.youtube.com/embed/${postData.youtube.id}?controls=0`}
+                        src={`https://www.youtube.com/embed/${postData.youtube.id}`}
                         title="YouTube video player"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         allowFullScreen
@@ -163,7 +162,7 @@ const PostsDetail = (props) => {
             {typeof postData.additional != "undefined" && (
               <>
                 {postData.additional.enabled == 1 && (
-                  <div className="row justify-content-center single-post-text mil-p-90-0">
+                  <div className="row justify-content-center single-post-text mil-p-60-0">
                     <div
                       className="col-lg-10 col-xl-6"
                       dangerouslySetInnerHTML={{
@@ -179,8 +178,6 @@ const PostsDetail = (props) => {
       </div>
 
       <RelatedPostsSection items={props.related} />
-
-      <SubscribeSection bgColorClass={"mil-gray-bg"} />
     </Layouts>
   );
 };

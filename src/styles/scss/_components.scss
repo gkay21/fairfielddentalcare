@@ -505,6 +505,12 @@ icon box
   }
 }
 
+.hours-grid {
+  display: grid;
+  column-gap: 15px;
+  grid-template-columns: 1fr 1fr;
+}
+
 /***************************
 
 fields
@@ -608,6 +614,15 @@ textarea {
 
 /***************************
 
+service
+
+***************************/
+.service {
+  min-height: 830px;
+}
+
+/***************************
+
 reviews
 
 ***************************/
@@ -616,12 +631,14 @@ reviews
   padding: 30px;
   background-color: $light;
   user-select: none;
+
   & i {
     font-size: 18px;
     color: $accent-1;
   }
 
   & .mil-user-details {
+    margin-top: auto;
     display: flex;
     align-items: center;
 
@@ -689,7 +706,6 @@ accordion
 
 .mil-accordion {
   width: 100%;
-  border-bottom: solid 4px $light;
 }
 
 .mil-accordion-menu {
@@ -748,8 +764,21 @@ accordion
   height: 0;
   overflow: hidden;
 
+  & ul {
+    padding-left: 30px;
+    margin: 0;
+
+    & li {
+      list-style-type: square;
+    }
+  }
+
   & p {
-    padding: 20px 0 30px;
+    padding-top: 20px;
+  }
+
+  &:last-child {
+    padding-bottom: 20px;
   }
 }
 

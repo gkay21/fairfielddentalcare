@@ -8,10 +8,15 @@ import Layouts from "@layouts/Layouts";
 import { getPaginatedPostsData } from "../lib/posts";
 
 export const Content = {
-  subtitle: "Newsletter",
-  title: "News from the life <br />of our agency.",
-  description:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum fuga ratione cum maxime ullam id voluptatibus commodi dolorem at, aut, odio, amet quod molestias possimus. Sunt repudiandae ipsam, consectetur repellendus.",
+  subtitle: "Blog",
+  title:
+    "Dental Dialogues: <br/>Unveiling the Secrets to a Brighter, Healthier Smile",
+  description1:
+    "Welcome to our blog, an informative hub dedicated to illuminating the path toward optimal oral health and a dazzling smile.",
+  description2:
+    "Dive into a world of dental expertise where our team shares valuable insights, practical tips, and the latest trends in dental care. From articles on preventive measures and treatment options to inspiring stories of smile transformations, our blog serves as your trusted companion in navigating the realm of dental wellness.",
+  description3:
+    "Join us on this journey as we unravel the secrets to maintaining healthy teeth, bright smiles, and overall well-being.",
 };
 
 const Blog = ({ posts, totalPosts, currentPage }) => {
@@ -36,9 +41,10 @@ const Blog = ({ posts, totalPosts, currentPage }) => {
             </div>
             <div className="col-xl-6">
               <p className="mil-appearance mil-mt-55-adapt mil-mb-30">
-                {Content.description}
+                {Content.description1}
               </p>
-
+              <p className="mil-appearance mil-mb-30">{Content.description2}</p>
+              <p className="mil-appearance mil-mb-30">{Content.description3}</p>
               <div className="mil-deco mil-appearance"></div>
             </div>
           </div>

@@ -1,142 +1,104 @@
-import Layouts from "@/src/layouts/Layouts";
+import PageBanner from "@components/PageBanner";
+import Layouts from "@layouts/Layouts";
 
-import { getSortedPostsData } from "../lib/posts";
+import CallToActionSection from "@components/sections/CallToAction";
 
-import PageBanner from "@/src/components/PageBanner";
-import SubscribeSection from "../components/sections/Subscribe";
-import LatestPostsSection from "../components/sections/LatestPosts";
-import CallToActionSection from "../components/sections/CallToAction";
-import AwardsSection from "../components/sections/Awards";
-import CountersSection from "../components/sections/Counters";
-
-import "photoswipe/dist/photoswipe.css";
-
-import { Gallery, Item } from "react-photoswipe-gallery";
-
-const About = (props) => {
+const Team = () => {
   const Content = {
-    about: {
-      subtitle: "Our story",
-      title: "Writing content like you've never had before",
-      text_1:
-        "Gutem temporibus quae facilis totam, dolorem laborum optio laudantium explicabo quia ea. Officia beatae excepturi adipisci? Nobis consequatur ullam officiis adipisci assumenda, voluptas optio, commodi, soluta itaque error consectetur cupiditate vero voluptatem architecto blanditiis quidem amet. Quod ipsam consequuntur distinctio velit sed ipsum quisquam, itaque placeat error non animi.",
-      text_2:
-        "Exercitationem voluptatibus accusamus amet ratione atque, dolor vel necessitatibus illo ipsa officia, sunt quia magni saepe velit ipsum sapiente blanditiis minima. Voluptatem odit ullam veritatis corrupti officia non aperiam eius vero amet, sed porro blanditiis, harum, quo fugit cupiditate. Maxime quaerat ratione. Nobis consequatur ullam officiis adipisci assumenda, voluptas optio, commodi. Consectetur cupiditate vero.",
-    },
-    gallery: [
+    subtitle: "Team Members",
+    title: "Meet the Team at Fairfield Dental Care",
+    description1:
+      "Our entire team enjoys getting to know our patients and doing a great job when looking after their smiles. When we have the opportunity to get to know you and your family, we can better help you achieve your goals for your smile and your health.",
+    description2:
+      "Our friendly and experienced team looks forward to making your dental visits comfortable and an experience that you actually look forward to.",
+    items: [
       {
-        url: "/img/content/12.jpg",
-        width: 1000,
-        height: 1573,
+        image: "/img/team/1.png",
+        name: "Dr James El-Khoury",
+        role: "Principal Dentist",
       },
       {
-        url: "/img/content/13.jpg",
-        width: 1000,
-        height: 1065,
+        image: "/img/team/coming-soon-m.png",
+        name: "Dr Michael Tran",
+        role: "Dentist",
       },
       {
-        url: "/img/content/14.jpg",
-        width: 1000,
-        height: 1499,
+        image: "/img/team/2.png",
+        name: "Kerri Anne Le",
+        role: "Oral Health Therapist",
       },
       {
-        url: "/img/content/15.jpg",
-        width: 1000,
-        height: 792,
+        image: "/img/team/coming-soon-f.png",
+        name: "Sibel Serce",
+        role: "Oral Health Therapist",
       },
     ],
   };
 
   return (
     <Layouts>
-      <PageBanner pageImage={"/img/content/4.jpg"} pageTitle={"About"} />
+      <PageBanner pageImage={"/img/hero/1.png"} pageTitle={"Team"} />
 
-      {/* about */}
+      {/* team */}
       <div className="container mil-content-frame mil-appearance mil-p-120-90">
-        <div className="row justify-content-between">
+        <div className="row justify-content-between mil-mb-120">
           <div className="col-lg-5">
             <span className="mil-link mil-softened-60 mil-appearance mil-mb-30">
-              {Content.about.subtitle}
+              {Content.subtitle}
             </span>
-            <h3 className="mil-appearance mil-mb-30">{Content.about.title}</h3>
+            <h3
+              className="mil-appearance mil-mb-30"
+              dangerouslySetInnerHTML={{ __html: Content.title }}
+            />
           </div>
           <div className="col-lg-6">
-            <div className="row">
-              <div className="col-lg-6">
-                <p className="mil-first-letter mil-appearance mil-mb-30">
-                  {Content.about.text_1}
-                </p>
-              </div>
-              <div className="col-lg-6">
-                <p className="mil-appearance mil-mb-30">
-                  {Content.about.text_2}
-                </p>
-              </div>
-            </div>
+            <p className="mil-appearance mil-mt-55-adapt mil-mb-30">
+              {Content.description1}
+            </p>
+
+            <p className="mil-appearance mil-mb-30">{Content.description2}</p>
+            <div className="mil-deco mil-appearance"></div>
           </div>
         </div>
-      </div>
-      {/* about end */}
 
-      {/* gallery */}
-      <div className="container mil-content-frame mil-gallery-1 mil-p-0-90">
-        <div className="row justify-content-between align-items-center mil-appearance">
-          <Gallery>
-            {Content.gallery.map((item, key) => (
-              <div
-                className="col-md-6 col-xl-3 mil-mb-30"
-                key={`gallery-iten-${key}`}
-              >
-                <Item
-                  original={item.url}
-                  thumbnail={item.url}
-                  width={item.width}
-                  height={item.height}
-                >
-                  {({ ref, open }) => (
-                    <a
-                      data-fancybox="gallery"
-                      data-no-swup
-                      ref={ref}
-                      onClick={open}
-                      className={`mil-just-image${
-                        key % 2 == 0 ? " mil-image-vert" : " mil-image-square"
-                      } mil-icon-3-trigger`}
-                      style={{ cursor: "pointer" }}
-                    >
-                      <img
-                        src={item.url}
-                        alt="img"
-                        className="mil-scale-img"
-                        data-value-1="1"
-                        data-value-2="1.2"
-                      />
-                    </a>
-                  )}
-                </Item>
+        <div className="row">
+          {Content.items.map((item, key) => (
+            <div
+              className="col-xl-3 col-lg-4 col-md-6"
+              key={`team-item-${key}`}
+            >
+              {/* team card */}
+              <div className="mil-card-1 mil-scale-down-trigger mil-accent-trigger mil-appearance mil-mb-30">
+                <div className="mil-cover mil-long">
+                  <div className="mil-image-frame">
+                    {/* portrait */}
+                    <img
+                      src={item.image}
+                      alt={item.name}
+                      style={{ objectPosition: "top" }}
+                    />
+                  </div>
+                </div>
+                <div className="mil-overlay mil-with-bg mil-text-center">
+                  <div className="mil-description">
+                    {/* name */}
+                    <h5>{item.name}</h5>
+                    {/* post */}
+                    <span className="mil-link mil-softened-50">
+                      {item.role}
+                    </span>
+                  </div>
+                </div>
               </div>
-            ))}
-          </Gallery>
+              {/* team card end */}
+            </div>
+          ))}
         </div>
       </div>
-      {/* gallery end */}
+      {/* team end */}
 
-      <CountersSection />
-      <AwardsSection />
       <CallToActionSection />
-      <LatestPostsSection posts={props.posts} />
-      <SubscribeSection />
     </Layouts>
   );
 };
-export default About;
-
-export async function getStaticProps() {
-  const allPosts = getSortedPostsData();
-
-  return {
-    props: {
-      posts: allPosts,
-    },
-  };
-}
+export default Team;

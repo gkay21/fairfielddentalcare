@@ -1,27 +1,12 @@
-import Layouts from "@layouts/Layouts";
 import PageBanner from "@components/PageBanner";
-
+import CallToActionSection from "@components/sections/CallToAction";
+import Layouts from "@layouts/Layouts";
+import { getAllServicesIds, getServiceData } from "@library/services";
+import Link from "next/link";
 import { useEffect } from "react";
-
 import { accordion } from "../../common/utilits";
 
-import Link from "next/link";
-
-import { getAllServicesIds, getServiceData } from "@library/services";
-
-import CallToActionSection from "@components/sections/CallToAction";
-import PricingSection from "@components/sections/Pricing";
-
 const ServiceDetail = ({ postData }) => {
-  const Content = {
-    title: "Our top-quality services",
-    subtitle: "Services 1",
-    description1:
-      "If you're looking for top-quality content that engages, informs, and converts your audience, you've come to the right place. Our experienced team works closely with you to understand your brand and your target audience, and we create content that speaks directly to them.",
-    description2:
-      "At FairfieldDentalCare, we're committed to providing our clients with the highest level of service and support. Contact us today to learn more about how we can help you achieve your content and social media goals.",
-  };
-
   useEffect(() => {
     accordion();
   }, []);
@@ -31,15 +16,18 @@ const ServiceDetail = ({ postData }) => {
       <PageBanner pageImage={postData.fullImage} pageTitle={postData.title} />
 
       {/* service */}
-      <div className="container mil-content-frame mil-appearance mil-p-120-120">
+      <div className="service container mil-content-frame mil-appearance mil-p-120-120">
         <div className="row justify-content-between">
-          <div className="col-lg-4 mil-mb-120">
+          <div className="col-lg-5 mil-mb-120">
             <span className="mil-link mil-softened-60 mil-appearance mil-mb-30">
               Services
             </span>
             <h3 className="mil-appearance mil-mb-30">{postData.title}</h3>
 
-            <p className="mil-appearance mil-mb-30">{postData.description}</p>
+            <div
+              className="service-description mil-appearance mil-mb-30"
+              dangerouslySetInnerHTML={{ __html: postData.description }}
+            />
 
             <Link
               href={postData.button.link}
@@ -48,7 +36,7 @@ const ServiceDetail = ({ postData }) => {
               <span>{postData.button.label}</span>
             </Link>
           </div>
-          <div className="col-lg-6">
+          <div className="col-lg-6 mil-mt-60-adapt">
             <div className="mil-accordion">
               {postData.list.map((item, key) => (
                 <div

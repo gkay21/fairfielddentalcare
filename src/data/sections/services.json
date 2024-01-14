@@ -1,33 +1,33 @@
 {
-  "bg_image": "/img/content/3.jpg",
+  "bg_image": "/img/content/3.png",
   "items": [
     {
       "num": "01",
       "title": "General Dentistry",
       "icon": "/img/icons/1.svg",
-      "text": "Deleniti ratione, delectus beatae, exercitationem debitis, dignissimos similique, atque, officiis.",
-      "link": "/services/general-dentistry"
+      "text": "The heart of oral care. Our dedicated team of dental professionals is committed to ensuring your smile radiates with health and confidence. ",
+      "link": "/services/general-dentistry/"
     },
     {
       "num": "02",
       "title": "Cosmetic Dentistry",
       "icon": "/img/icons/2.svg",
-      "text": "Deleniti ratione, delectus beatae, exercitationem debitis, dignissimos similique, atque, officiis.",
-      "link": "/services/cosmetic-dentistry"
+      "text": "From teeth whitening to transformative procedures, our specialized services focus on enhancing your dental aesthetics.",
+      "link": "/services/cosmetic-dentistry/"
     },
     {
       "num": "03",
       "title": "Root Canal Treatment",
       "icon": "/img/icons/3.svg",
-      "text": "Deleniti ratione, delectus beatae, exercitationem debitis, dignissimos similique, atque, officiis.",
-      "link": "/services/root-canal-treatment"
+      "text": "Our skilled team specializes in preserving your natural smile by addressing dental discomfort at its root.",
+      "link": "/services/root-canal-treatment/"
     },
     {
       "num": "04",
       "title": "Emergencies",
       "icon": "/img/icons/3.svg",
-      "text": "Deleniti ratione, delectus beatae, exercitationem debitis, dignissimos similique, atque, officiis.",
-      "link": "/services/emergencies"
+      "text": "Our dedicated team is here to address sudden dental issues, providing urgent care when you need it most.",
+      "link": "/services/emergencies/"
     }
   ]
 }

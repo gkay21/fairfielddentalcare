@@ -20,12 +20,23 @@ const DefaultFooter = ({ bg, instagram, extraClass }) => {
           <div className="row justify-content-between">
             <div className="col-lg-6 col-xl-4 mil-mb-30">
               <h4 className="mil-light mil-mb-30">
-                <span
+                <p
                   dangerouslySetInnerHTML={{ __html: appData.footer.logo.text }}
                 />
-                <span className="mil-accent">{appData.footer.logo.accent}</span>
+                <p className="mil-accent">{appData.footer.logo.accent}</p>
               </h4>
-              <p className="mil-mb-30">{appData.footer.description}</p>
+              {appData.footer.description1 && (
+                <p
+                  className="mil-mb-15"
+                  dangerouslySetInnerHTML={{ __html: appData.footer.description1 }}
+                />
+              )}
+              {appData.footer.description2 && (
+                <p
+                  className="mil-mb-15"
+                  dangerouslySetInnerHTML={{ __html: appData.footer.description2 }}
+                />
+              )}
             </div>
             <div className="col-lg-12 col-xl-8">
               <div className="row justify-content-xl-end">

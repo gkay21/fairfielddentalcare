@@ -18,57 +18,53 @@
       },
       {
         "label": "About",
-        "link": "/about-us",
+        "link": "/about-us/",
         "children": [
           {
             "label": "Our Team",
-            "link": "/about-us"
+            "link": "/about-us/"
           },
           {
             "label": "Our Technology",
-            "link": "/technology"
-          },
-          {
-            "label": "Our Practice",
-            "link": "/office-tour"
+            "link": "/technology/"
           }
         ]
       },
       {
         "label": "Services",
-        "link": "/services",
+        "link": "/services/",
         "children": [
           {
             "label": "General Dentistry",
-            "link": "/services/general-dentistry"
+            "link": "/services/general-dentistry/"
           },
           {
             "label": "Cosmetic Dentistry",
-            "link": "/services/cosmetic-dentistry"
+            "link": "/services/cosmetic-dentistry/"
           },
           {
             "label": "Dental Implants",
-            "link": "/services/dental-implants"
+            "link": "/services/dental-implants/"
           },
           {
             "label": "Emergencies",
-            "link": "/services/emergencies"
+            "link": "/services/emergencies/"
           },
           {
             "label": "Root Canal Treatment",
-            "link": "/services/root-canal-treatment"
+            "link": "/services/root-canal-treatment/"
           },
           {
             "label": "Dental Crowns and Bridges",
-            "link": "/services/dental-crowns-bridges"
+            "link": "/services/dental-crowns-bridges/"
           },
           {
             "label": "Anti-Snoring Treatment",
-            "link": "/services/antisnoring-treatment"
+            "link": "/services/antisnoring-treatment/"
           },
           {
             "label": "Veneers",
-            "link": "/services/veneers"
+            "link": "/services/veneers/"
           },
           {
             "label": "Children’s Dentistry",
@@ -76,80 +72,73 @@
           },
           {
             "label": "Anti-Wrinkle Injections",
-            "link": "/services/antiwrinkle-injections"
+            "link": "/services/antiwrinkle-injections/"
           },
           {
             "label": "Dentures and Partial Dentures",
-            "link": "/services/dentures-partial-dentures"
+            "link": "/services/dentures-partial-dentures/"
           },
           {
             "label": "Dental Surgery",
-            "link": "/services/dental-surgery"
+            "link": "/services/dental-surgery/"
           }
         ]
       },
       {
         "label": "FAQs",
-        "link": "/faqs"
+        "link": "/faqs/"
       },
       {
         "label": "Blog",
-        "link": "/blog"
+        "link": "/blog/"
       },
       {
         "label": "Financial",
-        "link": "/financial-info"
+        "link": "/financial/"
       },
       {
         "label": "Contact",
-        "link": "/contact"
+        "link": "/contact/"
       }
     ]
   },
   "footer": {
     "logo": {
-      "text": "It’s Time to Pull in <br />a",
-      "accent": " Professional"
+      "text": "Nurturing healthy smiles",
+      "accent": "one patient at a time!"
     },
-    "description": "Adipisicing elit consequuntur odit accusamus, aspern loluptates ea consequuntur aspernatur fugiat. Lorem ipsum dolor sit amet.",
+    "description1": "Give us a call to arrange your next dental appointment or if you have a toothache or emergency. We are here when you need us.",
+    "description2": "Our helpful and friendly team looks forward to exceeding your expectations and to making dentistry a welcome part of your health and wellness regimen.",
     "menu": [
       {
-        "label": "Homepage",
+        "label": "Home",
         "link": "/"
       },
       {
         "label": "About",
-        "link": "about"
+        "link": "/about-us/"
       },
       {
-        "label": "Portfolio",
-        "link": "portfolio"
+        "label": "Services",
+        "link": "/services/"
       },
       {
-        "label": "Newsletter",
-        "link": "blog"
+        "label": "FAQs",
+        "link": "/faqs/"
       },
       {
-        "label": "Contact",
-        "link": "contact"
+        "label": "Blog",
+        "link": "/blog/"
       }
     ],
     "links": [
       {
-        "label": "Terms",
-        "link": "#."
+        "label": "Financial",
+        "link": "/financial/"
       },
       {
-        "label": "Careers",
-        "link": "#."
-      },
-      {
-        "label": "Privacy Policy",
-        "link": "#."
-      },
-      {
-        "label": "Help Center",
-        "link": "#."
+        "label": "Contact",
+        "link": "/contact/"
       },
       {
         "label": "Sitemap",
@@ -157,21 +146,7 @@
       }
     ],
     "copy": "© 2023 Fairfield Dental Care. All Rights Reserved.",
-    "bg_image": "/img/hero/1.jpg",
-    "instagram": {
-      "images": [
-        "/img/content/instagram-2/1.jpg",
-        "/img/content/instagram-2/2.jpg",
-        "/img/content/instagram-2/3.jpg",
-        "/img/content/instagram-2/4.jpg",
-        "/img/content/instagram-2/5.jpg",
-        "/img/content/instagram-2/6.jpg"
-      ],
-      "button": {
-        "label": "Our Instagram",
-        "link": "https://instagram.com"
-      }
-    }
+    "bg_image": "/img/hero/1.jpg"
   },
   "contacts": {
     "email": "info@fairfielddentalcare.com.au",
