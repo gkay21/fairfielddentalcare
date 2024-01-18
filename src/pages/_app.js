@@ -1,6 +1,7 @@
 import React from "react";
 import Head from "next/head";
 import { SpeedInsights } from "@vercel/speed-insights/next";
+import { Analytics } from '@vercel/analytics/react';
 
 import "../styles/scss/style.scss";
 import "../styles/globals.css";
