@@ -19,7 +19,7 @@ const Team = () => {
       },
       {
         image: "/img/team/coming-soon-m.png",
-        name: "Dr Michael Tran",
+        name: "Dr. Jacob Guirguis",
         role: "Dentist",
       },
       {
