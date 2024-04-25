@@ -37,7 +37,7 @@ const Technology = ({ posts, postData }) => {
           </div>
         </div>
         <div
-          className="mil-mt-55-adapt single-post-text"
+          className="mil-mt-55 single-post-text"
           dangerouslySetInnerHTML={{ __html: postData.contentHtml }}
         />
       </div>

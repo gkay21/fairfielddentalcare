@@ -47,6 +47,10 @@ navigation
     align-items: center;
     justify-content: flex-end;
 
+    @media screen and (max-width: $menu-collapse-value) {
+      padding: 30px 15px 0 !important;
+    }
+
     &.mil-menu-right {
       justify-content: flex-end;
     }
@@ -61,17 +65,7 @@ navigation
       margin-left: 30px;
 
       @media screen and (max-width: $menu-collapse-value) {
-        margin: 0;
-        width: 100%;
-        display: block;
-        padding: 30px 30px 0;
-
-        & li {
-          padding: 0;
-          margin-right: 15px;
-          width: auto;
-          display: none;
-        }
+        display: none;
       }
     }
 
@@ -239,62 +233,25 @@ navigation
       }
     }
   }
-
-  &.mil-transparent-nav,
-  &.mil-invert-nav {
-    border-bottom: solid 1px $lt-5;
-
-    & a {
-      color: $light;
-    }
-
-    & .mil-logo {
-      margin-right: 75px;
-
-      & * {
-        color: $light;
-      }
-
-      & svg {
-        width: 70px;
-
-        & path {
-          fill: $light;
-        }
-
-        & .mil-accent {
-          fill: $light;
-        }
-      }
-    }
-
-    & .mil-mobile-dropdown {
-      @media screen and (max-width: $menu-collapse-value) {
-        background-color: $dark;
-      }
-
-      & .mil-has-children {
-        & ul {
-          border-color: $accent-1;
-          background-color: $accent-1;
-
-          & a {
-            color: $dark;
-          }
-        }
-      }
-    }
-  }
-
-  &.mil-invert-nav {
-    background-color: $dark;
-  }
-
-  &.mil-transparent-nav {
-    background-color: transparent;
-  }
 }
 
+.mil-bottom-panel {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9;
+  height: $bottom-panel-height;
+  display: flex;
+  align-items: center;
+  background-color: $light;
+  color: $dark;
+
+  @media screen and (min-width: $menu-collapse-value) {
+    display: none;
+  }
+}
 // menu button
 
 .mil-menu-btn {
@@ -358,17 +315,6 @@ navigation
     & span:after,
     & span:before {
       background: $dark;
-    }
-  }
-}
-
-.mil-transparent-nav,
-.mil-invert-nav {
-  & .mil-menu-btn {
-    & span,
-    & span:after,
-    & span:before {
-      background-color: $light;
     }
   }
 }

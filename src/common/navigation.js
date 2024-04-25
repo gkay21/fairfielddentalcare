@@ -1,15 +1,14 @@
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
-import variables from "../styles/scss/variables.module.scss";
 
 export const navigation = () => {
   gsap.registerPlugin(ScrollTrigger);
 
-  const showAnim = gsap
+  const topAnim = gsap
     .from(".mil-top-panel.mil-animated", {
       yPercent: -100,
       paused: true,
-      duration: 0.4,
+      duration: 0.2,
     })
     .progress(1);
 
@@ -17,29 +16,7 @@ export const navigation = () => {
     start: "top top",
     end: 99999999,
     onUpdate: (self) => {
-      self.direction === -1 ? showAnim.play() : showAnim.reverse();
+      self.direction === -1 ? topAnim.play() : topAnim.reverse();
     },
-  });
-
-  const showColor = document.querySelectorAll(
-    ".mil-top-panel.mil-transparent-nav"
-  );
-
-  showColor.forEach((section) => {
-    gsap.fromTo(
-      section,
-      {
-        ease: "sine",
-        backgroundColor: "rgba(38, 50, 56, 0)",
-      },
-      {
-        backgroundColor: variables.darkColor,
-        scrollTrigger: {
-          start: "top -100, top",
-          end: 99999,
-          toggleClass: "active",
-        },
-      }
-    );
   });
 };

@@ -1,10 +1,12 @@
-import { useEffect } from "react";
+import { useState, useEffect } from "react";
 import { scrollAnimation } from "../common/scrollAnims";
 import { formInputs } from "../common/utilits";
 import { navigation } from "../common/navigation";
 
 import Footer from "./footers/Index";
 import Header from "./headers/Index";
+import useScreenSize from "../lib/useScreenSize";
+import Toolbar from "./toolbar/Index";
 
 const Layouts = ({ children, footer, footerBg, footerInst, extraClass }) => {
   useEffect(() => {
@@ -24,6 +26,7 @@ const Layouts = ({ children, footer, footerBg, footerInst, extraClass }) => {
       </div>
 
       <Footer layout={footer} bg={footerBg} instagram={footerInst} />
+      <Toolbar extraClass={extraClass} />
     </div>
   );
 };
