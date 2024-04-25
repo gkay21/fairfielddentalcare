@@ -247,6 +247,7 @@ navigation
   align-items: center;
   background-color: $light;
   color: $dark;
+  box-shadow: -0.5px -0.5px 0 1px $dt-5;
 
   @media screen and (min-width: $menu-collapse-value) {
     display: none;
